@@ -11,13 +11,7 @@ public class Movimentacao {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private LocalDateTime dataHora;
 
-    private String descricao;
-
-    private Double valor;
-
-    private Integer idConta;
 
     @Enumerated(EnumType.STRING)
     private  TipoMovimentacao tipo;
